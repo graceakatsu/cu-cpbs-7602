@@ -4,3 +4,4 @@ CPBS_7602_general_notes.docx
 assignment01/data/*
 assignment01/clean_data/*
 assignment01/k_means_outputs/*
+assignment01/DBSCAN_outputs/*
