@@ -1,3 +1,5 @@
 *.DS_Store
 lectures/.ipynb_checkpoints*
 CPBS_7602_general_notes.docx
+assignment01/data/*
+assignment01/clean_data/*
