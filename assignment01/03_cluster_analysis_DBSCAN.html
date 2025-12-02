@@ -7588,11 +7588,11 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">DATA_FILE</span> <span class="o">=</span> <span class="s2">"/Users/akatsug/OneDrive - The University of Colorado Denver/CPBS_7602_big_data_in_biomedical_informatics/assignment01/clean_data/gtex_top10_tissues_top5000_variable_genes_standardized.csv"</span>
-<span class="n">DBSCAN_OUTPUTS</span> <span class="o">=</span> <span class="s2">"/Users/akatsug/OneDrive - The University of Colorado Denver/CPBS_7602_big_data_in_biomedical_informatics/assignment01/DBSCAN_outputs"</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">DATA_FILE</span> <span class="o">=</span> <span class="s2">"clean_data/gtex_top10_tissues_top5000_variable_genes_standardized.csv"</span>
+<span class="n">DBSCAN_OUTPUTS</span> <span class="o">=</span> <span class="s2">"DBSCAN_outputs"</span>
 
 <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">DBSCAN_OUTPUTS</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </pre></div>
@@ -8273,33 +8273,62 @@ a.anchor-link {
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>eps=10.00 | clusters=1 | clustered fraction=0.009
 eps=11.72 | clusters=2 | clustered fraction=0.012
+eps=11.72 | clusters=2 | clustered fraction=0.012
+eps=13.45 | clusters=1 | clustered fraction=0.014
 eps=13.45 | clusters=1 | clustered fraction=0.014
 eps=15.17 | clusters=1 | clustered fraction=0.016
+eps=15.17 | clusters=1 | clustered fraction=0.016
+eps=16.90 | clusters=4 | clustered fraction=0.025
 eps=16.90 | clusters=4 | clustered fraction=0.025
 eps=18.62 | clusters=4 | clustered fraction=0.044
+eps=18.62 | clusters=4 | clustered fraction=0.044
+eps=20.34 | clusters=3 | clustered fraction=0.062
 eps=20.34 | clusters=3 | clustered fraction=0.062
 eps=22.07 | clusters=7 | clustered fraction=0.084
+eps=22.07 | clusters=7 | clustered fraction=0.084
+eps=23.79 | clusters=12 | clustered fraction=0.117
 eps=23.79 | clusters=12 | clustered fraction=0.117
 eps=25.52 | clusters=12 | clustered fraction=0.172
+eps=25.52 | clusters=12 | clustered fraction=0.172
+eps=27.24 | clusters=13 | clustered fraction=0.256
 eps=27.24 | clusters=13 | clustered fraction=0.256
 eps=28.97 | clusters=17 | clustered fraction=0.352
+eps=28.97 | clusters=17 | clustered fraction=0.352
+eps=30.69 | clusters=14 | clustered fraction=0.447
 eps=30.69 | clusters=14 | clustered fraction=0.447
 eps=32.41 | clusters=9 | clustered fraction=0.540
+eps=32.41 | clusters=9 | clustered fraction=0.540
+eps=34.14 | clusters=7 | clustered fraction=0.616
 eps=34.14 | clusters=7 | clustered fraction=0.616
 eps=35.86 | clusters=10 | clustered fraction=0.681
+eps=35.86 | clusters=10 | clustered fraction=0.681
+eps=37.59 | clusters=8 | clustered fraction=0.744
 eps=37.59 | clusters=8 | clustered fraction=0.744
 eps=39.31 | clusters=4 | clustered fraction=0.790
+eps=39.31 | clusters=4 | clustered fraction=0.790
+eps=41.03 | clusters=2 | clustered fraction=0.824
 eps=41.03 | clusters=2 | clustered fraction=0.824
 eps=42.76 | clusters=2 | clustered fraction=0.856
+eps=42.76 | clusters=2 | clustered fraction=0.856
+eps=44.48 | clusters=1 | clustered fraction=0.883
 eps=44.48 | clusters=1 | clustered fraction=0.883
 eps=46.21 | clusters=1 | clustered fraction=0.902
+eps=46.21 | clusters=1 | clustered fraction=0.902
+eps=47.93 | clusters=1 | clustered fraction=0.917
 eps=47.93 | clusters=1 | clustered fraction=0.917
 eps=49.66 | clusters=1 | clustered fraction=0.931
+eps=49.66 | clusters=1 | clustered fraction=0.931
+eps=51.38 | clusters=2 | clustered fraction=0.943
 eps=51.38 | clusters=2 | clustered fraction=0.943
 eps=53.10 | clusters=1 | clustered fraction=0.951
+eps=53.10 | clusters=1 | clustered fraction=0.951
+eps=54.83 | clusters=1 | clustered fraction=0.959
 eps=54.83 | clusters=1 | clustered fraction=0.959
 eps=56.55 | clusters=1 | clustered fraction=0.964
+eps=56.55 | clusters=1 | clustered fraction=0.964
 eps=58.28 | clusters=1 | clustered fraction=0.968
+eps=58.28 | clusters=1 | clustered fraction=0.968
+eps=60.00 | clusters=1 | clustered fraction=0.972
 eps=60.00 | clusters=1 | clustered fraction=0.972
 </pre>
 </div>
@@ -8493,23 +8522,42 @@ eps=60.00 | clusters=1 | clustered fraction=0.972
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>eps=20.00 | clusters=3 | clustered fraction=0.059
 eps=21.05 | clusters=3 | clustered fraction=0.070
+eps=21.05 | clusters=3 | clustered fraction=0.070
+eps=22.11 | clusters=7 | clustered fraction=0.084
 eps=22.11 | clusters=7 | clustered fraction=0.084
 eps=23.16 | clusters=10 | clustered fraction=0.103
+eps=23.16 | clusters=10 | clustered fraction=0.103
+eps=24.21 | clusters=14 | clustered fraction=0.131
 eps=24.21 | clusters=14 | clustered fraction=0.131
 eps=25.26 | clusters=11 | clustered fraction=0.163
+eps=25.26 | clusters=11 | clustered fraction=0.163
+eps=26.32 | clusters=15 | clustered fraction=0.206
 eps=26.32 | clusters=15 | clustered fraction=0.206
 eps=27.37 | clusters=14 | clustered fraction=0.267
+eps=27.37 | clusters=14 | clustered fraction=0.267
+eps=28.42 | clusters=16 | clustered fraction=0.322
 eps=28.42 | clusters=16 | clustered fraction=0.322
 eps=29.47 | clusters=14 | clustered fraction=0.381
+eps=29.47 | clusters=14 | clustered fraction=0.381
+eps=30.53 | clusters=13 | clustered fraction=0.441
 eps=30.53 | clusters=13 | clustered fraction=0.441
 eps=31.58 | clusters=11 | clustered fraction=0.496
+eps=31.58 | clusters=11 | clustered fraction=0.496
+eps=32.63 | clusters=7 | clustered fraction=0.549
 eps=32.63 | clusters=7 | clustered fraction=0.549
 eps=33.68 | clusters=6 | clustered fraction=0.595
+eps=33.68 | clusters=6 | clustered fraction=0.595
+eps=34.74 | clusters=7 | clustered fraction=0.638
 eps=34.74 | clusters=7 | clustered fraction=0.638
 eps=35.79 | clusters=10 | clustered fraction=0.678
+eps=35.79 | clusters=10 | clustered fraction=0.678
+eps=36.84 | clusters=6 | clustered fraction=0.722
 eps=36.84 | clusters=6 | clustered fraction=0.722
 eps=37.89 | clusters=8 | clustered fraction=0.754
+eps=37.89 | clusters=8 | clustered fraction=0.754
 eps=38.95 | clusters=6 | clustered fraction=0.781
+eps=38.95 | clusters=6 | clustered fraction=0.781
+eps=40.00 | clusters=2 | clustered fraction=0.804
 eps=40.00 | clusters=2 | clustered fraction=0.804
 </pre>
 </div>
