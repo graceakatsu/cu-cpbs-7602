@@ -33,8 +33,8 @@ And what will be created:
 │   ├── kmeans_k10_cluster_assignments.csv
 │   └── kmeans_k10_cluster_assignments_PCA.png
 └── DBSCAN_outputs/                             # DBSCAN results
-│   ├── dbscan_cluster_assignments.csv
-│   └── DBSCAN_k10_cluster_assignments_PCA.png
+    ├── dbscan_cluster_assignments.csv
+    └── DBSCAN_k10_cluster_assignments_PCA.png
 
 
 
