@@ -22,7 +22,8 @@ And what will be created:
 .
 ├── data/                                        # Raw downloaded data
 │   ├── GTEx_Analysis_2017-06-05_v8_RNASeQCv1.1.9_gene_tpm.gct.gz
-│   └── GTEx_Analysis_v8_Annotations_SampleAttributesDS.txt
+│   ├── GTEx_Analysis_v8_Annotations_SampleAttributesDS.txt
+│   └── GTEx_Analysis_v8_Annotations_SubjectPhenotypesDS.txt
 ├── clean_data/                                  # Processed data
 │   └── gtex_top10_tissues_top5000_variable_genes_standardized.csv
 ├── ****                            
