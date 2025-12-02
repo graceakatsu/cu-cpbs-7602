@@ -41,12 +41,12 @@ And what will be created:
 HTML exports of all notebooks are also included in this repo, but will not be automatically generated.
 ```
 
-## Notebooks Description
+## Notebooks
 
-- 1. Data Download and Preprocessing (`01_data_download_and_preprocessing.ipynb`)
-- 2. K-means Clustering Analysis (`02_cluster_analysis_k_means.ipynb`)
-- 3. DBSCAN Clustering Analysis (`03_cluster_analysis_DBSCAN.ipynb`)
-- 4. Cluster Evaluation and Interpretation (`04_cluster_evaluation_and_interpretation.ipynb`)
+- 1) Data Download and Preprocessing (`01_data_download_and_preprocessing.ipynb`)
+- 2) K-means Clustering Analysis (`02_cluster_analysis_k_means.ipynb`)
+- 3) DBSCAN Clustering Analysis (`03_cluster_analysis_DBSCAN.ipynb`)
+- 4) Cluster Evaluation and Interpretation (`04_cluster_evaluation_and_interpretation.ipynb`)
 
 ## Reproduction Instructions
 
