@@ -25,7 +25,7 @@ And what will be created:
 │   ├── GTEx_Analysis_v8_Annotations_SampleAttributesDS.txt
 │   └── GTEx_Analysis_v8_Annotations_SubjectPhenotypesDS.txt
 ├── clean_data/                                  # Processed data
-│   └── gtex_top10_tissues_top5000_variable_genes_standardized.csv
+│   └── gtex_blood_brain_top5000_variable_genes_standardized.csv
 ├── ****                            
 │   ├── ****
 │   └── ****
