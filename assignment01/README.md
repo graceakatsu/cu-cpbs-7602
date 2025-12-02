@@ -35,6 +35,8 @@ And what will be created:
 └── DBSCAN_outputs/                             # DBSCAN results
     ├── dbscan_cluster_assignments.csv
 │   └── DBSCAN_k10_cluster_assignments_PCA.png
+
+HTML exports of all notebooks are also included in this repo, but will not be automatically generated.
 ```
 
 ## Notebooks Description
